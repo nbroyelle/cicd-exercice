@@ -8,4 +8,4 @@ jobs:
     - run: ls -l
     - uses: actions/checkout@v2
     - run: sudo apt-get --assume-yes install cowsay
-    - run: cat README.md | cowsay dans GitPod
+    - run: cat README.md | cowsay Bonjour
